@@ -55,12 +55,6 @@
             display: inline-block;
         }
 
-        .section p {
-            margin: 10px 0;
-            font-size: 14px;
-            color: #555;
-        }
-
         ul {
             padding-left: 20px;
         }
@@ -70,15 +64,16 @@
             color: #555;
         }
 
-        .contact-info span {
+        .section p {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .contact-info span, .contact-info a {
             display: block;
             font-size: 14px;
             margin-bottom: 5px;
-        }
-
-        .summary {
-            font-size: 14px;
-            line-height: 1.6;
             color: #333;
         }
 
@@ -90,21 +85,31 @@
             text-align: center;
         }
 
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Name Section -->
-        <h1>Kartik Shetty</h1>
-        <div class="headline">Aspiring Software Developer | React Native & Java | AI-Assisted Development</div>
 
-        <!-- Main Section Wrapper -->
+        <!-- Name -->
+        <h1>Kartik Shetty</h1>
+        <div class="headline">Aspiring Software Developer | React Native & Java | AI-Assisted Developer</div>
+
+        <!-- Wrap -->
         <div class="section-box">
 
             <!-- Summary -->
             <div class="section summary">
                 <h2 class="section-title">Summary</h2>
-                <p>Beginner software developer with hands-on experience building mobile and desktop applications using React Native and Java Swing. Skilled in AI-assisted development to rapidly prototype and deploy functional apps.</p>
+                <p>Beginner software developer with hands-on experience building mobile and desktop applications using React Native and Java Swing. Skilled in AI-assisted workflows to rapidly prototype and develop functional apps.</p>
                 <p>Fast learner pursuing a BE in Computer Engineering with strong interest in mobile development, problem solving, and full-stack fundamentals.</p>
             </div>
 
@@ -169,17 +174,17 @@
                         <ul>
                             <li>Developed a mobile app for managing shared family tasks and reminders</li>
                             <li>Created multiple screens and navigation flow</li>
-                            <li>Integrated external REST APIs for data usage</li>
-                            <li>Built using AI-guided development cycles</li>
+                            <li>Integrated external REST APIs</li>
+                            <li>Built using AI-assisted development</li>
                         </ul>
                     </li>
 
                     <li><strong>Java Swing – Portfolio Management Tool</strong>
                         <ul>
-                            <li>Desktop application to track stocks, bonds, and financial assets</li>
-                            <li>Implemented add/update/remove functionality for portfolio items</li>
-                            <li>Used OOP principles and Swing UI components</li>
-                            <li>Designed modular code structure to support future features</li>
+                            <li>Desktop app to track stocks, bonds, and financial assets</li>
+                            <li>Implemented asset add/edit/remove functionality</li>
+                            <li>Used OOP concepts and modular design</li>
+                            <li>Built UI using Java Swing components</li>
                         </ul>
                     </li>
                 </ul>
@@ -191,11 +196,14 @@
                 <span><strong>Location:</strong> Mumbai, Maharashtra, India</span>
                 <span><strong>Email:</strong> kartikshetty1913@gmail.com</span>
                 <span><strong>Phone:</strong> +91 7304302798</span>
+                <a href="https://github.com/kartik1913" target="_blank"><strong>GitHub:</strong> github.com/kartik1913</a>
             </div>
+
         </div>
 
-        <!-- Thank You -->
+        <!-- Thank you -->
         <div class="thank-you">Thank you!</div>
+
     </div>
 </body>
 </html>
