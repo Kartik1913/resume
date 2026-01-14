@@ -26,8 +26,16 @@
         h1 {
             font-size: 36px;
             font-weight: bold;
-            margin-bottom: 20px;
+            margin-bottom: 5px;
             text-align: center;
+        }
+
+        .headline {
+            font-size: 16px;
+            text-align: center;
+            color: #444;
+            font-weight: bold;
+            margin-bottom: 25px;
         }
 
         .section-box {
@@ -53,10 +61,6 @@
             color: #555;
         }
 
-        .education-item, .skills-item {
-            margin-top: 20px;
-        }
-
         ul {
             padding-left: 20px;
         }
@@ -78,10 +82,6 @@
             color: #333;
         }
 
-        .skills-section ul li {
-            font-weight: bold;
-        }
-
         .thank-you {
             font-family: 'Caveat', cursive;
             font-size: 28px;
@@ -89,23 +89,26 @@
             color: #555;
             text-align: center;
         }
+
     </style>
 </head>
 <body>
     <div class="container">
         <!-- Name Section -->
         <h1>Kartik Shetty</h1>
+        <div class="headline">Aspiring Software Developer | React Native & Java | AI-Assisted Development</div>
 
-        <!-- All Sections Wrapped in a Single Box -->
+        <!-- Main Section Wrapper -->
         <div class="section-box">
-            <!-- Summary Section -->
+
+            <!-- Summary -->
             <div class="section summary">
                 <h2 class="section-title">Summary</h2>
-                <p>Detail-oriented and motivated software engineer with a basic foundation in programming languages such as Python, and C++. Currently pursuing a degree in Computer Science, with hands-on experience in software development through the university and academic projects.</p>
-                <p>Strong problem-solving skills and a passion for developing efficient, scalable applications. Eager to contribute to innovative projects and collaborate in a dynamic team environment. Committed to continuous learning and staying updated with industry trends.</p>
+                <p>Beginner software developer with hands-on experience building mobile and desktop applications using React Native and Java Swing. Skilled in AI-assisted development to rapidly prototype and deploy functional apps.</p>
+                <p>Fast learner pursuing a BE in Computer Engineering with strong interest in mobile development, problem solving, and full-stack fundamentals.</p>
             </div>
 
-            <!-- Education Section -->
+            <!-- Education -->
             <div class="section education">
                 <h2 class="section-title">Education</h2>
                 <div class="education-item">
@@ -115,67 +118,84 @@
                 </div>
 
                 <div class="education-item">
-                    <h3>Bachelor of Engineering - BE</h3>
+                    <h3>Bachelor of Engineering - Computer Engineering</h3>
                     <p>KJ Somaiya College of Engineering, Vidyavihar</p>
                     <p><strong>2024 - 2028</strong></p>
                 </div>
             </div>
 
-            <!-- Skills Section -->
+            <!-- Skills -->
             <div class="section skills-section">
                 <h2 class="section-title">Skills</h2>
                 <ul>
                     <li>Programming Languages
-    <ul>
-      <li>Java (basic OOP & Swing)</li>
-      <li>Python</li>
-      <li>C, C++ fundamentals</li>
-      <li>JavaScript (beginner)</li>
-    </ul>
-  </li>
+                        <ul>
+                            <li>Java (OOP & Swing fundamentals)</li>
+                            <li>Python</li>
+                            <li>C, C++ fundamentals</li>
+                            <li>JavaScript (beginner)</li>
+                        </ul>
+                    </li>
 
-  <li>Mobile / Front-End
-    <ul>
-      <li>React Native — built apps with navigation & REST APIs</li>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ul>
-  </li>
+                    <li>Mobile / Front-End
+                        <ul>
+                            <li>React Native — UI, navigation & REST API integration</li>
+                            <li>HTML & CSS</li>
+                        </ul>
+                    </li>
 
-  <li>Databases
-    <ul>
-      <li>MySQL — basic CRUD queries</li>
-    </ul>
-  </li>
+                    <li>Databases
+                        <ul>
+                            <li>MySQL — basic CRUD queries</li>
+                        </ul>
+                    </li>
 
-  <li>AI & Workflow
-    <ul>
-      <li>AI-Assisted Development (ChatGPT, prompt engineering)</li>
-      <li>Git & GitHub</li>
-      <li>VS Code</li>
-      <li>Debugging & learning frameworks fast</li>
-    </ul>
-  </li>
-            
+                    <li>AI & Workflow
+                        <ul>
+                            <li>AI-Assisted Development (ChatGPT, prompt engineering)</li>
+                            <li>Git & GitHub</li>
+                            <li>VS Code</li>
+                            <li>Debugging & rapid learning</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
 
-            <!-- Contact Info Section -->
+            <!-- Projects -->
+            <div class="section projects-section">
+                <h2 class="section-title">Projects</h2>
+                <ul>
+                    <li><strong>React Native – Family Hub App</strong>
+                        <ul>
+                            <li>Developed a mobile app for managing shared family tasks and reminders</li>
+                            <li>Created multiple screens and navigation flow</li>
+                            <li>Integrated external REST APIs for data usage</li>
+                            <li>Built using AI-guided development cycles</li>
+                        </ul>
+                    </li>
+
+                    <li><strong>Java Swing – Portfolio Management Tool</strong>
+                        <ul>
+                            <li>Desktop application to track stocks, bonds, and financial assets</li>
+                            <li>Implemented add/update/remove functionality for portfolio items</li>
+                            <li>Used OOP principles and Swing UI components</li>
+                            <li>Designed modular code structure to support future features</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
             <div class="section contact-info">
                 <h2 class="section-title">Contact Information</h2>
-                <span><strong>Address:</strong> Mumbai, Maharashtra, India</span>
-                <span><strong>Email address:</strong> kartikshetty1913@gmail.com</span>
-                <span><strong>Contact number:</strong> +91 7304302798</span>
+                <span><strong>Location:</strong> Mumbai, Maharashtra, India</span>
+                <span><strong>Email:</strong> kartikshetty1913@gmail.com</span>
+                <span><strong>Phone:</strong> +91 7304302798</span>
             </div>
         </div>
 
-        <!-- Thank You Section -->
-        <div class="thank-you">
-            Thank you!
-        </div>
+        <!-- Thank You -->
+        <div class="thank-you">Thank you!</div>
     </div>
 </body>
 </html>
-
-
-
